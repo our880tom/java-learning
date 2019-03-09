@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>cn.swiftdev.example.pattern.factory.factorymethod</OriginalElement>
+  <nodes>
+    <node x="75.5" y="153.0">cn.swiftdev.example.pattern.factory.ICar</node>
+    <node x="122.0" y="232.0">cn.swiftdev.example.pattern.factory.BenzCar</node>
+    <node x="0.0" y="232.0">cn.swiftdev.example.pattern.factory.BMWCar</node>
+    <node x="0.0" y="306.0">cn.swiftdev.example.pattern.factory.factorymethod.FactoryMethodTest</node>
+    <node x="166.0" y="79.0">cn.swiftdev.example.pattern.factory.factorymethod.BMWCarFactory</node>
+    <node x="0.0" y="79.0">cn.swiftdev.example.pattern.factory.factorymethod.BenzCarFactory</node>
+    <node x="97.5" y="0.0">cn.swiftdev.example.pattern.factory.factorymethod.ICarFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cn.swiftdev.example.pattern.factory.factorymethod.BMWCarFactory" target="cn.swiftdev.example.pattern.factory.factorymethod.ICarFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="240.0" y="54.0" />
+      <point x="186.0" y="54.0" />
+      <point x="29.5" y="14.5" />
+    </edge>
+    <edge source="cn.swiftdev.example.pattern.factory.BMWCar" target="cn.swiftdev.example.pattern.factory.ICar">
+      <point x="0.0" y="-14.5" />
+      <point x="51.0" y="207.0" />
+      <point x="93.5" y="207.0" />
+      <point x="-18.0" y="14.5" />
+    </edge>
+    <edge source="cn.swiftdev.example.pattern.factory.factorymethod.BenzCarFactory" target="cn.swiftdev.example.pattern.factory.factorymethod.ICarFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="73.0" y="54.0" />
+      <point x="127.0" y="54.0" />
+      <point x="-29.5" y="14.5" />
+    </edge>
+    <edge source="cn.swiftdev.example.pattern.factory.BenzCar" target="cn.swiftdev.example.pattern.factory.ICar">
+      <point x="0.0" y="-14.5" />
+      <point x="172.0" y="207.0" />
+      <point x="129.5" y="207.0" />
+      <point x="18.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="157.0" y="91.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

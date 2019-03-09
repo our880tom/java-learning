@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>cn.swiftdev.example.pattern.factory.abstractfactory</OriginalElement>
+  <nodes>
+    <node x="168.0" y="79.0">cn.swiftdev.example.pattern.factory.abstractfactory.BenzCarFactory</node>
+    <node x="0.0" y="79.0">cn.swiftdev.example.pattern.factory.abstractfactory.BMWCarFactory</node>
+    <node x="125.0" y="385.0">cn.swiftdev.example.pattern.factory.abstractfactory.BenzBus</node>
+    <node x="77.0" y="153.0">cn.swiftdev.example.pattern.factory.abstractfactory.IBike</node>
+    <node x="98.5" y="0.0">cn.swiftdev.example.pattern.factory.abstractfactory.ICarFactory</node>
+    <node x="125.0" y="232.0">cn.swiftdev.example.pattern.factory.abstractfactory.BMWBIke</node>
+    <node x="0.0" y="385.0">cn.swiftdev.example.pattern.factory.abstractfactory.BMWBus</node>
+    <node x="273.0" y="306.0">cn.swiftdev.example.pattern.factory.abstractfactory.AbstractFactoryTest</node>
+    <node x="0.0" y="232.0">cn.swiftdev.example.pattern.factory.abstractfactory.BenzBike</node>
+    <node x="77.0" y="306.0">cn.swiftdev.example.pattern.factory.abstractfactory.IBus</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cn.swiftdev.example.pattern.factory.abstractfactory.BenzCarFactory" target="cn.swiftdev.example.pattern.factory.abstractfactory.ICarFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="241.0" y="54.0" />
+      <point x="187.0" y="54.0" />
+      <point x="29.5" y="14.5" />
+    </edge>
+    <edge source="cn.swiftdev.example.pattern.factory.abstractfactory.BMWBus" target="cn.swiftdev.example.pattern.factory.abstractfactory.IBus">
+      <point x="0.0" y="-14.5" />
+      <point x="52.5" y="360.0" />
+      <point x="95.75" y="360.0" />
+      <point x="-18.75" y="14.5" />
+    </edge>
+    <edge source="cn.swiftdev.example.pattern.factory.abstractfactory.BMWCarFactory" target="cn.swiftdev.example.pattern.factory.abstractfactory.ICarFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="74.0" y="54.0" />
+      <point x="128.0" y="54.0" />
+      <point x="-29.5" y="14.5" />
+    </edge>
+    <edge source="cn.swiftdev.example.pattern.factory.abstractfactory.BMWBIke" target="cn.swiftdev.example.pattern.factory.abstractfactory.IBike">
+      <point x="0.0" y="-14.5" />
+      <point x="178.5" y="207.0" />
+      <point x="134.75" y="207.0" />
+      <point x="19.25" y="14.5" />
+    </edge>
+    <edge source="cn.swiftdev.example.pattern.factory.abstractfactory.BenzBike" target="cn.swiftdev.example.pattern.factory.abstractfactory.IBike">
+      <point x="0.0" y="-14.5" />
+      <point x="52.5" y="207.0" />
+      <point x="96.25" y="207.0" />
+      <point x="-19.25" y="14.5" />
+    </edge>
+    <edge source="cn.swiftdev.example.pattern.factory.abstractfactory.BenzBus" target="cn.swiftdev.example.pattern.factory.abstractfactory.IBus">
+      <point x="0.0" y="-14.5" />
+      <point x="176.5" y="360.0" />
+      <point x="133.25" y="360.0" />
+      <point x="18.75" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="223.5" y="207.0" />
+  <SelectedNodes>
+    <node>cn.swiftdev.example.pattern.factory.abstractfactory.ICarFactory</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
