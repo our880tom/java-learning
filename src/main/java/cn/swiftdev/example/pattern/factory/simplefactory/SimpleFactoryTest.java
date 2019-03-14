@@ -8,6 +8,5 @@ public class SimpleFactoryTest {
         CarFactory carFactory = new CarFactory();
         ICar car = carFactory.create("BMW");
         car.drive();
-
     }
 }
