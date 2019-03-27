@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class PromotionStrategyFactory {
 
-    private static Map<String, PromotionStrategy> PROMOTION_STRATEGY_MAP = new HashMap<>();
+    private static Map<String, PromotionStrategy> PROMOTION_STRATEGY_MAP = new HashMap<String, PromotionStrategy>();
 
     static {
         PROMOTION_STRATEGY_MAP.put(PromotionKey.COUPON, new CouponStrategy());
